@@ -100,7 +100,7 @@ if (revealElements.length) {
             });
         },
         {
-            threshold: 0.15
+            threshold: 0.06
         }
     );
 

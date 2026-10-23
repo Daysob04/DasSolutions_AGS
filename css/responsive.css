@@ -5678,3 +5678,515 @@
         font-size: 19px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================
+   INFORMACIÓN — HERO RESPONSIVE
+======================================== */
+
+/* TABLET Y MÓVILES */
+@media (max-width: 800px) {
+
+    .information-hero {
+        min-height: 620px;
+    }
+
+    .information-hero-container {
+        width: calc(100% - 48px);
+        min-height: 620px;
+        padding: 105px 0 100px;
+    }
+
+    .information-hero-content {
+        max-width: 620px;
+    }
+
+    .information-hero-content h1 {
+        max-width: 600px;
+        font-size: clamp(38px, 6vw, 50px);
+        line-height: 1.15;
+        letter-spacing: -1.2px;
+    }
+
+    .information-hero-content p {
+        max-width: 540px;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .information-hero-scroll {
+        bottom: 28px;
+    }
+
+}
+
+
+/* MÓVILES PEQUEÑOS */
+@media (max-width: 480px) {
+
+    .information-hero {
+        min-height: 640px;
+    }
+
+    .information-hero-container {
+        width: calc(100% - 40px);
+        min-height: 640px;
+        padding: 100px 0 95px;
+    }
+
+    .information-hero-eyebrow {
+        margin-bottom: 18px;
+        font-size: 10px;
+        letter-spacing: 1.7px;
+    }
+
+    .information-hero-content h1 {
+        margin-bottom: 20px;
+        font-size: clamp(34px, 8.5vw, 42px);
+        line-height: 1.16;
+        letter-spacing: -1px;
+    }
+
+    .information-hero-content p {
+        margin-bottom: 28px;
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    .information-hero-button {
+        min-height: 50px;
+        padding: 0 18px;
+        gap: 12px;
+        font-size: 12px;
+    }
+
+    .information-hero-scroll {
+        bottom: 24px;
+        gap: 10px;
+        font-size: 9px;
+        letter-spacing: 1.5px;
+    }
+
+    .information-hero-scroll-line {
+        width: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+/* ========================================
+   INFORMACIÓN — ARTÍCULOS RESPONSIVE
+======================================== */
+
+/* TABLET */
+@media (max-width: 900px) {
+
+    .information-articles {
+        padding: 85px 0 80px;
+    }
+
+    .information-articles-container {
+        width: calc(100% - 48px);
+    }
+
+    .information-articles-heading {
+        margin-bottom: 42px;
+    }
+
+    .information-articles-heading h2 {
+        font-size: clamp(32px, 4.5vw, 40px);
+    }
+
+    .information-articles-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .information-article-card {
+        min-height: 320px;
+        padding: 26px 24px;
+    }
+
+    .information-article-content h3 {
+        font-size: 20px;
+    }
+
+    .information-articles-note {
+        margin-top: 30px;
+    }
+
+}
+
+
+/* MÓVIL */
+@media (max-width: 600px) {
+
+    .information-articles {
+        padding: 70px 0 65px;
+    }
+
+    .information-articles-container {
+        width: calc(100% - 40px);
+    }
+
+    .information-articles-heading {
+        margin-bottom: 32px;
+    }
+
+    .information-section-eyebrow {
+        margin-bottom: 15px;
+        font-size: 10px;
+        letter-spacing: 1.7px;
+    }
+
+    .information-articles-heading h2 {
+        margin-bottom: 18px;
+        font-size: clamp(29px, 7.5vw, 36px);
+        line-height: 1.22;
+        letter-spacing: -0.8px;
+    }
+
+    .information-articles-heading p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .information-articles-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .information-article-card {
+        min-height: 0;
+        padding: 25px 23px;
+    }
+
+    .information-article-number {
+        margin-bottom: 28px;
+    }
+
+    .information-article-content h3 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .information-article-content p {
+        margin-bottom: 22px;
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .information-articles-note {
+        gap: 12px;
+        margin-top: 26px;
+    }
+
+    .information-articles-note p {
+        font-size: 12px;
+        line-height: 1.75;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ========================================
+   ARTÍCULO — RESPONSIVE
+======================================== */
+
+/* TABLET Y ESCRITORIOS COMPACTOS */
+
+@media (max-width: 1000px) {
+
+    .article-hero {
+        padding: 30px 28px 62px;
+    }
+
+    .article-breadcrumb {
+        margin-bottom: 44px;
+    }
+
+    .article-hero-content {
+        max-width: 780px;
+    }
+
+    .article-layout {
+        grid-template-columns: minmax(0, 1fr) 250px;
+        gap: 36px;
+    }
+
+    .article-body-section {
+        padding: 64px 28px 80px;
+    }
+
+    .article-content h2 {
+        font-size: 25px;
+    }
+
+    .article-sidebar-card,
+    .article-sidebar-note {
+        padding: 24px 20px;
+    }
+
+    .article-sidebar-card h2 {
+        font-size: 21px;
+    }
+}
+
+/* TABLET VERTICAL Y MÓVIL */
+
+@media (max-width: 800px) {
+
+    .article-hero {
+        padding: 28px 24px 54px;
+    }
+
+    .article-breadcrumb {
+        gap: 8px;
+        margin-bottom: 36px;
+        font-size: 12px;
+    }
+
+    .article-hero-content {
+        max-width: 680px;
+    }
+
+    .article-hero-content h1 {
+        font-size: clamp(34px, 5.5vw, 46px);
+        line-height: 1.16;
+        letter-spacing: -0.8px;
+    }
+
+    .article-intro {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .article-meta {
+        gap: 9px;
+        margin-top: 22px;
+    }
+
+    .article-body-section {
+        padding: 52px 24px 68px;
+    }
+
+    .article-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 44px;
+        max-width: 680px;
+    }
+
+    .article-content {
+        font-size: 15px;
+        line-height: 1.85;
+    }
+
+    .article-content .article-lead {
+        font-size: 17px;
+        line-height: 1.8;
+        margin-bottom: 32px;
+    }
+
+    .article-content h2 {
+        margin-top: 38px;
+        margin-bottom: 16px;
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .article-content p {
+        margin-bottom: 19px;
+    }
+
+    .article-content ul {
+        gap: 10px;
+        padding-left: 22px;
+    }
+
+    .article-highlight {
+        margin: 34px 0;
+        padding: 24px;
+    }
+
+    .article-highlight p {
+        font-size: 16px;
+    }
+
+    .article-disclaimer {
+        margin-top: 36px;
+        padding: 20px;
+    }
+
+    .article-sidebar {
+        gap: 18px;
+    }
+
+    .article-sidebar-card,
+    .article-sidebar-note {
+        padding: 26px;
+    }
+
+    .article-sidebar-card h2 {
+        max-width: 460px;
+        font-size: 23px;
+    }
+}
+
+/* MÓVILES */
+
+@media (max-width: 520px) {
+
+    .article-hero {
+        padding: 24px 20px 42px;
+    }
+
+    .article-breadcrumb {
+        margin-bottom: 30px;
+        font-size: 11px;
+        gap: 7px;
+    }
+
+    .article-category {
+        margin-bottom: 15px;
+        font-size: 10px;
+        letter-spacing: 1.4px;
+    }
+
+    .article-hero-content h1 {
+        margin-bottom: 18px;
+        font-size: clamp(30px, 8vw, 37px);
+        line-height: 1.18;
+        letter-spacing: -0.6px;
+    }
+
+    .article-intro {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .article-meta {
+        align-items: flex-start;
+        gap: 7px;
+        font-size: 11px;
+    }
+
+    .article-body-section {
+        padding: 40px 20px 54px;
+    }
+
+    .article-layout {
+        gap: 36px;
+    }
+
+    .article-content {
+        font-size: 15px;
+        line-height: 1.85;
+    }
+
+    .article-content .article-lead {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 28px;
+    }
+
+    .article-content h2 {
+        margin-top: 32px;
+        margin-bottom: 14px;
+        font-size: 21px;
+        line-height: 1.4;
+        letter-spacing: -0.2px;
+    }
+
+    .article-content p {
+        margin-bottom: 17px;
+    }
+
+    .article-content ul {
+        padding-left: 20px;
+        gap: 9px;
+        margin-bottom: 22px;
+    }
+
+    .article-highlight {
+        margin: 28px 0;
+        padding: 21px 19px;
+    }
+
+    .article-highlight-label {
+        font-size: 10px;
+    }
+
+    .article-highlight p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .article-disclaimer {
+        margin-top: 30px;
+        padding: 18px;
+    }
+
+    .article-disclaimer p {
+        font-size: 12px;
+    }
+
+    .article-back-link {
+        margin-top: 26px;
+        padding-top: 20px;
+    }
+
+    .article-back-link a {
+        font-size: 13px;
+    }
+
+    .article-sidebar-card,
+    .article-sidebar-note {
+        padding: 23px 20px;
+    }
+
+    .article-sidebar-card h2 {
+        font-size: 21px;
+    }
+
+    .article-sidebar-card p,
+    .article-sidebar-note p {
+        font-size: 13px;
+    }
+}
+
+/* ACCESIBILIDAD — REDUCIR MOVIMIENTO */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .article-breadcrumb a,
+    .article-back-link a,
+    .article-sidebar-link,
+    .article-sidebar-note a {
+        transition: none;
+    }
+}
